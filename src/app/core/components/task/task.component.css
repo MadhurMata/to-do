@@ -1,0 +1,12 @@
+.task-container{
+  margin: 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 5px solid green;
+  border-right: 5px solid green;
+}
+
+.task-name{
+  margin-left: 10px;
+}

@@ -1,0 +1,17 @@
+.list-container{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  height: 100vh;
+}
+
+.column-container {
+  border: 5px dashed grey;
+  border-radius: 10PX;
+  height: 80vh;
+  width: 300px;
+}
+
+.list-name{
+  text-align: center;
+}
