@@ -1,11 +1,33 @@
+
 .container{
+  height: 100%;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  background-color: #2196f3;
 }
 
-.menu{
-  height: 100vh;
+.lists{
   display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.box-border{
+  height: 95%;
+  width: 100%;
+  margin: 10px;
+  border: #2196f3 solid;
+  border-radius: 26px;
+  background-color: white;
+}
+
+.innerborderbox{
+  height: 98%;
+  margin: 5px;
+  border: #2196f3 solid;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, rgb(237, 66, 100), rgb(255, 237, 188));
 }

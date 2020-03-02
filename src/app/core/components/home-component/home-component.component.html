@@ -2,7 +2,11 @@
   <div class="menu">
     <app-burguer-menu></app-burguer-menu>
   </div>
-  <div class="/">
-    <app-list></app-list>
+  <div class="box-border">
+    <div class="innerborderbox">
+      <div class="lists">
+        <app-list *ngFor="let list of list.lists; let i = index" [list]="list"></app-list>
+      </div>
+    </div>
   </div>
 </div>

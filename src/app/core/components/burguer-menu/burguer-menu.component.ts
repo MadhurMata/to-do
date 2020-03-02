@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BurguerMenuComponent implements OnInit {
 
+  isMenuShown = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleMenu(){
+    this.isMenuShown = !this.isMenuShown
   }
 
 }

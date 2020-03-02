@@ -1,6 +1,13 @@
 <div class="list-container">
   <div class="column-container">
-    <h2 class="list-name">To Do</h2>
-    <app-task *ngFor="let task of tasks; let i = index" [task]="task"></app-task>
+    <div class="title">
+      <h2 class="list-name">{{ list.name }}</h2>
+    </div>
+    <div class="tasks">
+      <app-task *ngFor="let task of tasks; let i = index" [task]="task"></app-task>
+    </div>
+    <div class="bottom-info">
+        <img class="add-button" src="../../../../assets/img/plus-sign.svg" alt="Add Button">    
+    </div>
   </div>
 </div>

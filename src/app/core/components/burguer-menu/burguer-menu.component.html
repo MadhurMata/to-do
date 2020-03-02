@@ -1,3 +1,10 @@
-<div class="container">
-  <img class="menu-btn" src="../../../../assets/img/3-white-dots-menu.svg" alt="M enu">
+<div class="menuContainer">
+  <div *ngIf="isMenuShown" class="menu vertical-align">
+    <h2>Create Todo List</h2>
+    <h2>My todo List</h2>
+    <h2>Change User</h2>
+  </div>
+  <div class="container vertical-align">
+    <img (click)="toggleMenu()" class="menu-btn" src="../../../../assets/img/3-white-dots-menu.svg" alt="Menu">
+  </div>
 </div>

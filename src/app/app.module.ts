@@ -9,6 +9,7 @@ import { ListComponent } from './core/components/list/list.component';
 import { HomeComponent } from './core/components/home-component/home-component.component';
 import { BurguerMenuComponent } from './core/components/burguer-menu/burguer-menu.component';
 import { TaskComponent } from './core/components/task/task.component';
+import { SplashScreenComponent } from './core/components/splash-screen/splash-screen.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TaskComponent } from './core/components/task/task.component';
     ListComponent,
     HomeComponent,
     BurguerMenuComponent,
-    TaskComponent
+    TaskComponent,
+    SplashScreenComponent
   ],
   imports: [
     BrowserModule,

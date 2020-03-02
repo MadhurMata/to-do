@@ -1,9 +1,22 @@
-.menu{
+.menuContainer{
   display: flex;
   align-items: center;
-  align-items: center;
+}
+
+.menu {
+  height: 100%;
+  background-color: #2196f3;
+  color: white;
+  padding: 1rem;
 }
 
 .menu-btn{
   height: 60px;
+}
+
+.vertical-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

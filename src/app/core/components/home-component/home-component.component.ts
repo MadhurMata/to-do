@@ -6,6 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-component.component.css']
 })
 export class HomeComponent implements OnInit {
+  
+
+  list = {
+  type: 'standard',
+  lists: [{
+      name: 'To Do',
+    },
+    {
+      name: 'Doing',
+    },
+    {
+      name: 'Done',
+    }]
+}
 
   constructor() { }
 
@@ -13,3 +27,4 @@ export class HomeComponent implements OnInit {
   }
 
 }
+
